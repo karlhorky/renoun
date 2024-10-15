@@ -1,5 +1,15 @@
 # renoun
 
+## 6.0.1
+
+### Patch Changes
+
+- 72a2e98: Fixes specifying a `language` for inline MDX code.
+- 9ac5434: Fixes bug in `CodeBlock` when targeting renoun filenames. The `CodeBlock` source files now use a unique identifier that does not clash with renoun exports.
+- 619abd9: Fixes class type resolution not accounting for filter and file dependencies.
+- Updated dependencies [72a2e98]
+  - @renoun/mdx@1.2.0
+
 ## 6.0.0
 
 ### Major Changes
